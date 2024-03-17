@@ -3,7 +3,7 @@ import { getAuth } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: process.env.FIREBASE_API_KEY,
+  apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
   authDomain: "olx-auth-444ed.firebaseapp.com",
   projectId: "olx-auth-444ed",
   storageBucket: "olx-auth-444ed.appspot.com",
